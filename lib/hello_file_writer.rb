@@ -7,6 +7,6 @@ module HelloFileWriter
   
   def self.write_file
     puts Dir.pwd
-    File.open('file_by_gem', 'w', 0755) { |f| f.puts 'open and write by gem.' }
+    File.open('file_by_gem', 'w', 0755) { |f| f.puts 'open and write by github gem.' }
   end
 end
